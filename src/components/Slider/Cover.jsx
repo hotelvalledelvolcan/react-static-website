@@ -2,7 +2,7 @@ import React from "react";
 import CoverImage from "./CoverImage";
 import CoverPage from "./CoverPage";
 
-//Hay que solucionar el error que tira con los atributos style que comente
+//Hay que solucionar el error que tira con los atributos style 
 
 const Slider = () => {
   return (
