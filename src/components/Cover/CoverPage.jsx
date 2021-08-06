@@ -30,7 +30,7 @@ const CoverPage = () => {
                 className="btn hero-btn"
                 data-animation="fadeInLeft"
                 data-delay=".9s"
-                tabindex="0"
+                // tabindex="0"
                 /* style="animation-delay: 0.9s;" */
               >
                 Ver Más
