@@ -2,7 +2,6 @@ import React from "react";
 
 const CoverPage = () => {
   return (
-    <>
       <div className="container">
         <div className="row">
           <div className="col-xl-7 col-lg-7 col-md-8 col-sm-10  position-sticky">
@@ -11,7 +10,7 @@ const CoverPage = () => {
                 data-animation="fadeInLeft"
                 data-delay=".4s"
                 className=""
-                /* style="animation-delay: 0.4s;" */
+                style={{ animationDelay: "0.4s" }}
               >
                 Visita las Termas de Copahue
               </h1>
@@ -19,7 +18,7 @@ const CoverPage = () => {
                 data-animation="fadeInLeft"
                 data-delay=".6s"
                 className=""
-                /* style="animation-delay: 0.6s;" */
+                style={{ animationDelay: "0.6s" }}
               >
                 Hotel Valle Del Volcán lleva más de 25 <br />
                 años acercandote a las termas de Copahue
@@ -30,8 +29,8 @@ const CoverPage = () => {
                 className="btn hero-btn"
                 data-animation="fadeInLeft"
                 data-delay=".9s"
-                // tabindex="0"
-                /* style="animation-delay: 0.9s;" */
+                tabIndex="0"
+                style={{ animationDelay: "0.9s" }}
               >
                 Ver Más
               </a>
@@ -39,7 +38,6 @@ const CoverPage = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

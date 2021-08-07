@@ -40,13 +40,13 @@ const AboutUs = () => {
                 <div className="about-font-img">
                   <img
                     width="600px"
-                    src="./Hotel - Template_files/images/hotel-estructura.jpg"
+                    src="images/hotel-estructura.jpg"
                     alt=""
                   />
                 </div>
                 <div className="about-back-img">
                   <img
-                    src="./Hotel - Template_files/images/salto-del-agrio.jpg"
+                    src="images/salto-del-agrio.jpg"
                     alt=""
                   />
                 </div>
