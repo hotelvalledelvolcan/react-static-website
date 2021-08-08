@@ -15,7 +15,7 @@ const MenuSection = () => {
               </a>
             </li>
             <li>
-              <a href="https://preview.colorlib.com/theme/ecoho/rooms.html">
+              <a href="habitaciones">
                 Habitaciones
               </a>
             </li>

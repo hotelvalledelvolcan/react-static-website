@@ -4,15 +4,19 @@ import React from 'react'
 export default {
 
   getRoutes: async () => {
-    return[
-    {
-      path: `/`,
-      template: 'src/pages/HomePage.jsx'
-    },
-    {
-      path: `sobrenosotros`,
-      template: 'src/pages/AboutUsPage.jsx'
-    }]
+    return [
+      {
+        path: `/`,
+        template: 'src/pages/HomePage.jsx'
+      },
+      {
+        path: `sobrenosotros`,
+        template: 'src/pages/AboutUsPage.jsx'
+      },
+      {
+        path: `habitaciones`,
+        template: 'src/pages/RoomsPage.jsx'
+      }]
   },
   plugins: [
     [
@@ -49,7 +53,7 @@ export default {
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
           integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-          crossOrigin="anonymous" referrerpolicy="no-referrer" />
+          crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"></link>
       </Head>
       <Body>{children}</Body>
@@ -66,12 +70,12 @@ export default {
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
       <script type="text/javascript" src="js/main.js" />
       <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
-    integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
-    crossOrigin="anonymous" referrerPolicy="no-referrer"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/gijgo.min.js"></script>
-    <script src="https://raw.githubusercontent.com/9bitStudios/barfiller/master/js/jquery.barfiller.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossOrigin="anonymous" referrerPolicy="no-referrer"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/gijgo.min.js"></script>
+      <script src="https://raw.githubusercontent.com/9bitStudios/barfiller/master/js/jquery.barfiller.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
       {/* <script type="text/javascript" src="js/main2.js" /> */}
       {/* <script type="text/javascript" src="js/main4.js" /> */}
     </Html>

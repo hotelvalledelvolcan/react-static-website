@@ -3,7 +3,6 @@ import Item from "./Item";
 
 const Rooms = () => {
   return (
-    <>
       <section className="popular-item-area fix">
         <div className="container-fluid p-0">
           <div className="row justify-content-center">
@@ -39,7 +38,6 @@ const Rooms = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 

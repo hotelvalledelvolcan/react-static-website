@@ -6,27 +6,27 @@ import Testimonials from "../components/Testimonials/Testimonials";
 import Gallery from "../components/Gallery/Gallery";
 import VideoPreview from "../components/VIdeoPreview/VideoPreview";
 import CoverSubPage from "../components/Cover/CoverSubPage";
+import Services from "../components/Services/Services";
 
-const AboutUsPage = () => {
+const RoomsPage = () => {
   return (
     <main>
       <CoverSubPage
-        title="El Hotel"
+        title="Habitaciones"
         description={[
-          "Hotel Valle Del Volcán lleva más de 25 años acercandote ",
+          "Hotel Valle Del Volcán posee 40 habitaciones ",
           <br />,
-          " a las termas de Copahue",
+          " con baño privado ",
         ]}
         image="images/centro-termal-portada.jpg"
       />
-      <AboutUs />
+      <Services/>
+
       <Rooms />
-      <VideoPreview />
-      <BlogSectionMiniature />
       <Testimonials />
       <Gallery />
     </main>
   );
 };
 
-export default AboutUsPage;
+export default RoomsPage;
