@@ -16,6 +16,10 @@ export default {
       {
         path: `habitaciones`,
         template: 'src/pages/RoomsPage.jsx'
+      },
+      {
+        path: `contacto`,
+        template: 'src/pages/ContactPage.jsx'
       }]
   },
   plugins: [

@@ -24,10 +24,9 @@ const VideoPreview = () => {
               className="popup-video btn-icon"
               href="https://www.youtube.com/watch?v=QUOV5ktvtY0"
             >
-              {" "}
               <img src="images/play-button.svg" alt="" />
             </a>
-            <h5>Hotel Preview</h5>
+            <h5>Video Copahue</h5>
           </div>
         </div>
       </div>

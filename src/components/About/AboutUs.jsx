@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutUs = () => {
+const AboutUs = ({text1, text2, text3}) => {
   return (
     <>
       <div className="about-low-area about-bg pt-padding">
@@ -8,11 +8,7 @@ const AboutUs = () => {
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-9">
               <div className="section-tittle text-center mb-60">
-                <h2>
-                  Las termas de Copahue son las únicas termas en el mundo que
-                  reunen una innumerable cantidad de recursos minerales
-                  naturales.
-                </h2>
+                <h2>{text1}</h2>
               </div>
             </div>
           </div>
@@ -20,11 +16,9 @@ const AboutUs = () => {
             <div className="col-xl-4 col-lg-4 col-md-6">
               <div className="about-caption">
                 <div className="section-tittle section-tittle2">
-                  <h2>Cercanía y comodidad para disfrutar Copahue </h2>
+                  <h2>{text2}</h2>
                   <p>
-                    {" "}
-                    Junto al volcán copahue hacen una combinación perfecta para
-                    que Copahue sea un paraíso termal.
+                    {text3}
                   </p>
                   <a
                     href="https://preview.colorlib.com/theme/ecoho/index.html#"

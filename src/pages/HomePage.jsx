@@ -13,16 +13,19 @@ import BackToTop from "../components/BackToTop/BackToTop";
 
 const HomePage = () => {
   return (
-      <main>
-        <Cover />
-        <AboutUs />
-        <Rooms />
-        <VideoPreview/>
-        <BlogSectionMiniature />
-        <Testimonials />
-        <Gallery />
-      </main>
-      
+    <main>
+      <Cover />
+      <AboutUs
+        text1="Las termas de Copahue son las únicas termas en el mundo que reunen una innumerable cantidad de recursos minerales naturales."
+        text2="Cercanía y comodidad para disfrutar Copahue"
+        text3="Junto al volcán copahue hacen una combinación perfecta para que Copahue sea un paraíso termal."
+      />
+      <Rooms />
+      <VideoPreview />
+      <BlogSectionMiniature />
+      <Testimonials />
+      <Gallery />
+    </main>
   );
 };
 

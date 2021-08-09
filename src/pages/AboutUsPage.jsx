@@ -19,7 +19,11 @@ const AboutUsPage = () => {
         ]}
         image="images/centro-termal-portada.jpg"
       />
-      <AboutUs />
+      <AboutUs
+        text1="Hotel valle del volcán es un establecimiento tres estrellas atendido por sus dueños, con un trato personalizado y cuidado hacia todos nuestros clientes."
+        text2="Garantizar una relación precio-calidad excelente."
+        text3="Contamos con menú fijo y dietas especiales a pedido de nuestros clientes, todas nuestras comidas se realizan de forma casera y sana para acompañar de manera acorde el tratamiento termal."
+      />
       <Rooms />
       <VideoPreview />
       <BlogSectionMiniature />

@@ -47,7 +47,7 @@ const MenuSection = () => {
               </ul>
             </li>
             <li>
-              <a href="contact.html">Contacto</a>
+              <a href="contacto">Contacto</a>
             </li>
             <li>
               <div className="header-right-btn f-right  ml-30">
@@ -55,7 +55,7 @@ const MenuSection = () => {
                   href="https://preview.colorlib.com/theme/ecoho/index.html#"
                   className="header-btn"
                 >
-                  Reserva{" "}
+                  Reserva
                 </a>
               </div>
             </li>
