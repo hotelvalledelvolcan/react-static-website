@@ -5,7 +5,7 @@ const ArticleMiniature = ({ title, image, description }) => {
     <div className="col-lg-4 col-md-6 col-sm-6">
       <div className="single-blogs mb-30">
         <div className="blog-img">
-          <img src={image} alt="" />
+          <img className="image-blog" src={image} alt="" />
         </div>
         <div className="blogs-cap">
           <h5>

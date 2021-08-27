@@ -7,6 +7,7 @@ const Item = ({title, image,price, description}) => {
         <div className="single-items">
           <div className="items-img">
             <img
+              className="image-rooms"
                src={image}
               alt=""
             />
